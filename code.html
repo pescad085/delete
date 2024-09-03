@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            background-image: linear-gradient(rgb(54, 71, 105), rgb(0, 0, 0));
+            background-repeat: no-repeat;
+            margin: 0px;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            margin-right: auto;
+            /*the margin top pushes the logo down by 10 pixels*/
+            border-radius: 50%;
+            position: relative;
+            top: 5px
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            background-color: rgba(248, 103, 6, 0.7);
+            font-size: 20px;
+
+        }
+
+        ul li {
+            padding-right: 30px;
+            padding-top: 15px;
+
+        }
+
+        nav ul li a {
+            font-size: 40px;
+            color: azure;
+            text-decoration: none;
+
+        }
+
+        nav ul li a:hover {
+            color: yellow;
+        }
+
+        #wrapper {
+        
+           margin: 0 auto;
+            background-image: url('./cat.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 60%;
+          
+            max-width: 1000px;
+        }
+
+        header {
+            background-color: red;
+            line-height: 200px;
+            background-color: rgba(52, 0, 64, 0.7);
+            text-align: center;
+            color: rgb(191, 213, 191);
+            font-size: 30px;
+        }
+
+        .myName {
+            display: inline;
+        }
+
+        .Iam {
+            display: inline;
+            position: relative;
+            top: 40px;
+        }
+
+        .section1 {
+       
+            font-size: 80px;
+        }
+
+        .section1 p {
+            background-color: rgba(255, 132, 0, 0.7);
+            color: #fff;
+        }
+
+        hr {
+            background-color: rgb(190, 172, 172);
+            height: 5px;
+            border: 2px solid rgba(0, 0, 0, 0.7);
+
+        }
+
+        .section2 {
+            text-align: left;
+            background-color: rgba(66, 174, 217, 0.9);
+            font-size: 45px;
+            color: #07014d;
+
+        }
+
+        footer {
+            text-align: center;
+            font-size: 30px;
+            background-color: green;
+        }
+        .programing-languages {
+            display: block;
+            clear: left;
+            font-size: 39px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .language {
+            flex: 1;
+            color: #000000;
+            background-color: #FFF;
+            border: 2px solid gray
+        }
+       #empty-space {
+            height: 800px;
+            display: block;
+        }
+        h3 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav>
+            <ul>
+
+
+                <img src="./cat.jpg" alt="Logo" width="50px" class="logo">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Resume</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>
+                <p class="myName">I am Meao</p>
+                <p class="Iam">I am a Developer</p>
+            </h1>
+        </header>
+              <div id="empty-space">
+                
+           
+            </div>
+        <main>
+            <section class="section1">
+                <p>About me
+                    <hr>
+                </p>
+            </section>
+            <section class="section2">
+                <p>Paragraph About the Portfolopo Owner. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+                    tenetur, optio officia at, ratione odit obcaecati accusamus veniam harum labore eius cupiditate
+                    nobis consequuntur quo excepturi ex distinctio amet fugiat?</p>
+            </section>
+</main>
+    <section class="programing-languages">
+
+                    <div class="language">
+                           <h3>PHP</h3>
+                             <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas deserunt nisi incidunt cumque. Commodi voluptate tenetur magni modi aspernatur perspiciatis, omnis, ut laboriosam nam sunt aut autem libero. Alias, ad.
+                             </p>
+                    </div>
+                    <div class="language">
+            <h3>JavaScript</h3>
+                            <p>
+                             consectetur adipisicing elit. Voluptas deserunt nisi incidunt cumque. Commodi voluptate
+                                tenetur magni modi aspernatur perspiciatis, omnis, ut laboriosam nam sunt aut autem libero. Alias, ad.
+                            </p>
+                    </div>
+                    <div class="language">
+                           <h3>Python</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas deserunt nisi incidunt cumque. Commodi voluptate
+                            tenetur magni modi aspernatur perspiciatis, omnis, ut laboriosam nam sunt aut autem libero. Alias, ad.
+                        </p>
+
+                    </div>
+
+
+
+
+
+    </section>
+
+        <footer>
+            <h3>copy right <i class="material-icons">copyright</i> 2024 </h3>
+        </footer>
+
+          
+
+      
+
+
+    </div>
+
+</body>
+
+</html>
